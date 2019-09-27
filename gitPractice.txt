@@ -180,7 +180,8 @@ git reset --hard osd/master
 3.远程常用操作
 remote add origin https://xxx/xxx.git
 git push -u origin master
-之后会提示输入用户名字和密码
+之后会提示输入github用户名字和密码
+git push origin master
 3.远程冲突。
 
 4.分支的目的，和使用场景。
