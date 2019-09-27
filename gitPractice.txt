@@ -169,16 +169,18 @@ git reset --hard osd/master
 
 
 
-8 基本命令总结git:
+8 github 基本命令总结git:
 1.建立仓库
 1.1建立本地仓库 [git init]. 在远程建立自己仓库[git init --bare test.git]
 2.本地常用操作
 [git init][git add .][git commit . -m "xxx"]
 因为有3个节点，工作区，暂时区，提交区。所以从理论上有3个回撤。但是从提交回到暂时，好像没有意义。
-从提交到工作区:[git reset --hard <version id>][git checkout -- <filename>]
+从提交到工作区:[git reset --hard <version id>]强制的，连暂存区也会清空好像。  [git checkout -- <filename>]
 从暂时到工作区:[git reset HEAD <file>]
 3.远程常用操作
-
+remote add origin https://xxx/xxx.git
+git push -u origin master
+之后会提示输入用户名字和密码
 3.远程冲突。
 
 4.分支的目的，和使用场景。
