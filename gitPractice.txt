@@ -22,7 +22,7 @@ $ git clone git@10.0.3.200:/home/git/code/ShareDocuments.git
 3.2 create repository 创建本地仓库
 $ mkdir xxx
 $ cd xxx
-$ git init --bare test.git  //这个是建立远程的仓库的专用参数，这样的库不运行本地修改和push。
+$ git init --bare test.git  //这个是建立远程的仓库的专用参数，这样的库不允许运行本地修改和push。
 $ git init//这个就是通用的。
 新建立的 xxx.git 目录，是程序需要使用，不要去修改。
 我们的文件放入到xxx文件夹中。
