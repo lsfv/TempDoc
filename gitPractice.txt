@@ -150,7 +150,7 @@ new project.
 5.日常操作：
   5.1 git branch 确定处于 dev 分支
   5.2 git pull，更新其他伙伴已经测试并提交的的代码,并减少冲突概率(如果刚好修改伙伴已经更新的文件)。
-  5.2 日常开发常用 add . commit . -m ，避免数据未插入DEV时，发生的意外情况。
+  5.2 日常开发常用 [add .][commit . -m "xxx"], 新文件和修改都是[add .]避免数据未插入DEV时，发生的意外情况。
   5.3 完成并测试后,git push
   5.3 尽量定时进入master，查看是否有bug修复了，并保持同步. git checkout master ,git pull . git checkout dev
 
@@ -164,3 +164,14 @@ new project.
 2.放弃自己更改。
 git pull
 git reset --hard osd/master
+
+
+
+
+8 需要学习的git:
+1.建立，上传。
+2.本地，远程。同步。
+3.冲突。
+4.分支的目的，和使用场景。
+
+9。重要命令
