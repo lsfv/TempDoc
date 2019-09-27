@@ -171,6 +171,7 @@ git reset --hard osd/master
 8 需要学习的git:
 1.建立，上传。
 2.本地，远程。同步。
+[git init][git add .][git commit . -m "xxx"][git reset --hard (version id)]
 3.冲突。
 4.分支的目的，和使用场景。
 
