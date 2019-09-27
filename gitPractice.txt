@@ -168,11 +168,13 @@ git reset --hard osd/master
 
 
 
-8 需要学习的git:
-1.建立，上传。
-2.本地，远程。同步。
-[git init][git add .][git commit . -m "xxx"][git reset --hard (version id)]
-3.冲突。
-4.分支的目的，和使用场景。
+8 基本命令总结git:
+1.建立仓库
+1.1建立本地仓库 [git init]. 在远程建立自己仓库[git init --bare test.git]
+2.本地常用操作
+[git init][git add .][git commit . -m "xxx"][git reset --hard (version id)][git checkout -- filename]
+3.远程常用操作
 
-9。重要命令
+3.远程冲突。
+
+4.分支的目的，和使用场景。
