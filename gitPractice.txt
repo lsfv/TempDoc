@@ -173,7 +173,10 @@ git reset --hard osd/master
 1.建立仓库
 1.1建立本地仓库 [git init]. 在远程建立自己仓库[git init --bare test.git]
 2.本地常用操作
-[git init][git add .][git commit . -m "xxx"][git reset --hard (version id)][git checkout -- filename]
+[git init][git add .][git commit . -m "xxx"]
+因为有3个节点，工作区，暂时区，提交区。所以从理论上有3个回撤。但是从提交回到暂时，好像没有意义。
+从提交到工作区:[git reset --hard <version id>][git checkout -- <filename>]
+从暂时到工作区:[git reset HEAD <file>]
 3.远程常用操作
 
 3.远程冲突。
