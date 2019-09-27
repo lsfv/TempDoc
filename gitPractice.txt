@@ -185,3 +185,4 @@ git push origin master
 3.远程冲突。
 
 4.分支的目的，和使用场景。
+[git branch <branch name>][git checkout <branch name>]
