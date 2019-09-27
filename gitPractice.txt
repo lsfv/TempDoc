@@ -40,6 +40,7 @@ git reset --hard (commit id)
 git log
 git reflog
 git checkout -- file    工作区返回到最后一次  commit or add. 并可用于恢复误删除文档(前提是commit 过.)
+为什么我测试只会返回到commit ，不会返回到add.
 
 6.推送到远程库.
 先关联远程库,也就是缩写地址   git remote add osd git@10.0.3.200:/home/git/code/ShareDocuments.git
