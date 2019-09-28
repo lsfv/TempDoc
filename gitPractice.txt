@@ -188,7 +188,7 @@ git push origin master
 建立[git branch <branch name>]
 切换[git checkout <branch name>]
 合并[git merge <branch name of you want>]
-合并的问题:处理冲突. 看下2者的差距，自己修改为最终版[git add <conf file>]  [git commit -i <conf file>] 
-
-ok.master
-this is master
+处理冲突. 有2类，
+1.完全保留冲突的某一方，而完全舍弃一方。
+2.自行修改为最终版[git add <conf file>]  [git commit -i <conf file>] 
+add some thing in confuse.
