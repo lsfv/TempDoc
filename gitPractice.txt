@@ -190,3 +190,5 @@ git push origin master
 合并[git merge <branch name of you want>]
 合并的问题:处理冲突. 看下2者的差距，自己修改为最终版[git add <conf file>]  [git commit -i <conf file>] 
 
+ok.master
+this is master
