@@ -191,4 +191,3 @@ git push origin master
 处理冲突. 有2类，
 1.完全保留冲突的某一方，而完全舍弃一方。
 2.自行修改为最终版[git add <conf file>]  [git commit -i <conf file>] 
-add some thing in master
