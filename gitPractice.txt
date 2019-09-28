@@ -186,3 +186,4 @@ git push origin master
 
 4.分支的目的，和使用场景。
 [git branch <branch name>][git checkout <branch name>]
+合并的问题：
