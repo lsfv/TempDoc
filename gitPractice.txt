@@ -188,6 +188,10 @@ git push -u origin master
 git push origin master
 3.远程冲突。
 
+pull 解决 commit push.
+失败，说明解决中，又有人提交新的了。这个完全无语了。所以最好还是分模块开发。
+多人协作不是协作同一个文件 。多人分开做不同的文件来协作。
+
 4.分支的目的，和使用场景。
 建立[git branch <branch name>]
 切换[git checkout <branch name>]
@@ -195,11 +199,3 @@ git push origin master
 处理冲突. 有2类，
 1.完全保留冲突的某一方，而完全舍弃一方。
 2.自行修改为最终版[git add <conf file>]  [git commit -i <conf file>] 
-master modify
-graph
-
-<<<<<<< HEAD
-graph2
-=======
-graph2dsfsdfsd
->>>>>>> graph2
