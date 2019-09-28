@@ -196,3 +196,4 @@ git push origin master
 1.完全保留冲突的某一方，而完全舍弃一方。
 2.自行修改为最终版[git add <conf file>]  [git commit -i <conf file>] 
 master modify
+graph
