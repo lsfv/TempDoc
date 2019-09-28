@@ -198,4 +198,8 @@ git push origin master
 master modify
 graph
 
+<<<<<<< HEAD
 graph2
+=======
+graph2dsfsdfsd
+>>>>>>> graph2
