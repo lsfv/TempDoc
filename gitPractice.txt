@@ -185,8 +185,8 @@ git push origin master
 3.远程冲突。
 
 4.分支的目的，和使用场景。
-[git branch <branch name>][git checkout <branch name>]
-合并的问题：
 建立[git branch <branch name>]
 切换[git checkout <branch name>]
 合并[git merge <branch name of you want>]
+合并的问题:处理冲突. 看下2者的差距，自己修改为最终版[git add <conf file>]  [git commit -i <conf file>] 
+
