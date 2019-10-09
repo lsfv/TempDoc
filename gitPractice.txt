@@ -193,6 +193,7 @@ pull 解决 commit push.
 多人协作不是协作同一个文件 。多人分开做不同的文件来协作。
 
 4.分支的目的，和使用场景。
+目的很多，只要你想修改代码，并且想随时查看修改前代码，那么你就有使用分支的必要。
 建立[git branch <branch name>]
 切换[git checkout <branch name>]
 合并[git merge <branch name of you want>]
