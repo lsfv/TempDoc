@@ -197,6 +197,7 @@ pull 解决 commit push.
 建立[git branch <branch name>]
 切换[git checkout <branch name>]
 合并[git merge <branch name of you want>]
-处理冲突. 有2类，
-1.完全保留冲突的某一方，而完全舍弃一方。
-2.自行修改为最终版[git add <conf file>]  [git commit -i <conf file>] 
+处理冲突.
+冲突是需要git来检测的，但是要记住，冲突是否解决是不需要检测的，你可以修改冲突文件为任何模样，最后执行[git add <file>] .就表示解决了这个冲突。
+最开始以为git验证冲突是否解决，应该有什么规则，后面才发现，git不验证。你只要告诉它，我解决了就可以了。
+自行修改为最终版，然后执行[git add <conf file>]  [git commit -i <conf file>] 
